@@ -1,0 +1,161 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 1500px;
+}
+
+.left-section {
+    padding: 50px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 5px solid white;
+}
+
+.name {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.position {
+    font-size: 1.2em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mid-sections {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.mid-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.mid-top {
+    padding: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 300px;
+    width: 250px;
+    flex: 1;
+}
+
+.right-section {
+    padding: 50px;
+    width: 150px;
+    height: 300px;
+    margin-left: 20px;
+}
+
+.mid-bottom {
+    padding: 50px;
+    padding-top: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 20px;
+    width: 550px;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.education-list,
+.work-experience-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+}
+
+.education-list li,
+.work-experience-list li {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+.education-list li span,
+.work-experience-list li span {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+    color: #fff;
+}
+
+.work-experience-list li p {
+    margin-bottom: 0;
+    color: #fff;
+    height: 100%;
+    overflow-y: auto;
+}
+
+strong {
+    color: #fff;
+}
+
+h3 {
+    color: #fff;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills-list li {
+    margin-bottom: 20px;
+}
+
+.health-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.health-bar-inner {
+    height: 100%;
+    background-color: #82eb84;
+    border-radius: 5px;
+}
